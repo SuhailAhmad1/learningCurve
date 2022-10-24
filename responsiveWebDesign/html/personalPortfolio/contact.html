@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhail Bhat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></aMy></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main" id="con-main">
+            <div class="hamburger">
+                <img src="ham.png" class="hamg" alt="" width="50px">
+                <img src="cross.png" class="cross" alt="" width="50px">
+            </div>
+            <div class="contactForm">
+                <h1>Contact Me for Work / General Enquiry</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="clientname" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="clientname" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email and Phone number with anyone else.</div>
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone Number</label>
+                      <input type="number" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isreal">
+                      <label class="form-check-label" for="isreal">You are a human</label>
+                    </div>
+                    
+                    <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                    
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

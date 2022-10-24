@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    font-family: "Fira Sans", sans-serif;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(226, 211, 211);
+    transition: transform 0.5s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(29, 21, 21);
+}
+
+.main{
+    width: 100vw;
+    background: linear-gradient(grey, rgb(164, 164, 211));
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    height: 58vh;
+    width: 78vw;
+    margin: 130px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.infoContainer .devPic img{
+    height: 58vh;
+    border-radius: 100px;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 50px;
+    height: 58vh;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+.about{
+    font-size: 38px;
+}
+
+.moreabout{
+    font-size: 25px;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 27px;
+}
+.buttons button{
+    margin-left: 10px;
+    margin-top: 30px;
+    size: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(87, 81, 81);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttons button:hover{
+    background-color: rgb(229, 192, 192);
+    color: rgb(46, 41, 41);
+}
+
+
+/*Contact form CSS*/
+#con-main{
+    background: linear-gradient(rgb(119, 155, 131), rgb(54, 100, 170));
+    color: white
+}
+
+.contactForm{
+    padding:0 34px;
+    padding-top: 144px;
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    height: 85vh;
+}
+
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace; 
+    text-align: center;
+}
+
+.contactForm form div{
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 4px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(240, 242, 255);
+    margin: 0 10px;
+    padding: 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 2vw;
+    height: 18px;
+    margin: 0px;
+    padding: 0;
+}
+
+#submit{
+    color: white;
+    background-color: rgb(28, 39, 38);
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+#submit:hover{
+    color: black;
+    background-color: rgb(159, 168, 165);
+}
+
+/*css for blogs*/
+
+.blog-h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.blogContainer{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 80px;
+    background: none;
+}
+
+
+.blogitems{
+    margin: 20px;
+    font-family:  "Fira Sans", sans-serif;
+    padding: 10px;
+}
+
+/*css for resume */
+
+.intro{
+    color: rgb(196, 196, 196);
+    font-family: sans-serif;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 92vh;
+}
+
+.intro h2{
+    color: white;
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.skillcontainer{
+    width: 23px;
+    height: 18px;
+    margin:auto;
+    margin-bottom: 150px;
+    margin-top: 10px;
+}
+
+.ed-tab{
+    border: 2px solid black;
+    text-align: center;
+    margin:auto;
+    width:700px;
+    height: 200px;
+}
+.ed-tab tr{
+    border: 2px solid black;
+}
+.ed-tab th{
+    border: 2px solid black;
+}
+
+.r-main{
+    background: linear-gradient(45deg, #cb9c9c, black);
+    color: aliceblue;
+}
+
+form{
+    margin-left: 450px;
+    margin-top: 91px;
+    border: 2px solid black;
+    padding-left: 300px;
+    margin-right: 400px;
+    padding-top: 65px;
+    padding-bottom: 100px;
+    border-radius: 80px;
+    background: linear-gradient(45deg, black, transparent);
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+    padding-bottom: 20px;
+}
+.cross{
+    margin-left: 120px;
+}
+
+@media (max-width: 1652px){
+    /*.sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+}
+
+
